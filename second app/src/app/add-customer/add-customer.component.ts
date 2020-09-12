@@ -19,7 +19,7 @@ export class AddCustomerComponent {
    let balance=data.balance;
     let customername=data.customername;
     this.user=new User(customername,balance);
-    console.log("user initialized="+this.user.balance);
+    //console.log("user initialized="+this.user.balance);
    }
  
 }
