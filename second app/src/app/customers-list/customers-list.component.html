@@ -1,0 +1,9 @@
+<div *ngFor="let user of users;let i=index" 
+[ngClass]=
+"{'eligible':isEligible(user.balance) ,
+'notEligible' : !isEligible(user.balance) }">
+ {{user.customername }} 
+
+  {{user.balance}}
+    
+</div>

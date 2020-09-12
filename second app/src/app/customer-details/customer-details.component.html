@@ -1,0 +1,35 @@
+customername and balance is {{user1.customername | uppercase}}  {{user1.balance | uppercase}}
+
+<div *ngIf="user1.balance>=1">
+    <h2>You are rich</h2>
+  </div>
+
+<div *ngIf="user1.balance<100">
+  <h4>  You are very rich</h4>
+</div>
+
+customername and balance is {{user2.customername}}  {{user2.balance}}
+<div *ngIf="user2.balance>=1">
+  <h2>You are rich</h2>
+</div>
+
+<div *ngIf="user2.balance<100">
+<h4>  You are very rich</h4>
+</div>
+
+<br>
+
+<a href="link">join army</a>
+<!-- customername and balance is {{user3.customername}}  {{user3.balance}} -->
+<!-- <br> -->
+
+<!-- customername and balance is {{user4.customername}}  {{user4.balance}} -->
+<br>
+<br>
+<br>
+Length of string present in customername={{user1.customername|length}}
+<br>
+Length of string present= {{"" | length}}
+<br>
+
+Length of string present in customername={{user2.customername|length}}
